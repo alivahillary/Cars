@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VehiclesActivity">
+
+    <TextView
+        android:id="@+id/txt_addvehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:text="@string/add_new_vehicle"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        />
+
+
+    <EditText
+        android:id="@+id/vehiclename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:inputType="text"
+        android:hint="@string/vehicle_name"
+        android:textSize="15sp"
+         />
+    <EditText
+        android:id="@+id/vehicleplate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:inputType="text"
+        android:hint="@string/plate_no"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:id="@+id/enginecapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:inputType="text"
+        android:hint="@string/engine_capacity"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/odometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:inputType="text"
+        android:hint="@string/odometer_reading"
+        android:textSize="15sp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/odometer"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="@string/add" />
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">
+Magari</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation Header</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="fuel_consumption_for_trip">Matumizi ya Mafuta Kwa Safari</string>
+    <string name="fuel_value">Thamani ya mafuta</string>
+    <string name="litres_of_fuel">Liters ya Mafuta</string>
+    <string name="trip_distance_in_km">Umbali wa Safari (katika Km)</string>
+    <string name="calculate">Hesabu</string>
+    <string name="km_litre">  (km / lita)</string>
+    <string name="save">Hifadhi</string>
+    <string name="add_your_first_vehicle">Ongeza Gari yako ya kwanza</string>
+    <string name="username">Jina</string>
+    <string name="password_login">nenosiri</string>
+    <string name="log_in">Ingia</string>
+    <string name="not_a_user_register_here">Sio mtumiaji, Jisajili hapa</string>
+    <string name="username_register">Jina la mtumiaji</string>
+    <string name="email">Barua pepe</string>
+    <string name="password_register">nenosiri</string>
+    <string name="register">Jisajili</string>
+    <string name="already_a_user_log_in">Tayari mtumiaji, Ingia</string>
+    <string name="add_new_vehicle">Ongeza Gari Mpya</string>
+    <string name="vehicle_name">Jina la Gari</string>
+    <string name="plate_no">Nambari ya usajili.</string>
+    <string name="engine_capacity">Uwezo Wa injini</string>
+    <string name="odometer_reading"> Maadili ya Odometer</string>
+    <string name="add">ONGEZA</string>
+    <string name="vehicles_owned">Magari Yako</string>
+    <string name="Vehicle_Name">Jina La Gari</string>
+    <string name="plate_number">Nambari ya Usajili</string>
+    <string name="Engine_Capacity">Uwezo Wa Injini</string>
+    <string name="odometer">Odometer</string>
+    <string name="cars">Magari</string>
+    <string name="vehicles">Magari</string>
+    <string name="fuel_consumption">Matumizi ya Mafuta</string>
+    <string name="services">Huduma</string>
+    <string name="dealerships">Maghala</string>
+    <string name="spare_parts">Vipuri vya Vipuri</string>
+    <string name="maintenance">Matengenezo</string>
+    <string name="language">Lugha</string>
+    <string name="select_language">Chagua Lugha</string>
+    <string name="success">Imefanya</string>
+</resources>

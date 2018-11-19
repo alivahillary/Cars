@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+   <group android:id = "@+id/grp_1">
+    <item
+        android:id="@+id/Vehicles"
+        android:checkable="true"
+        android:icon="@drawable/car"
+        android:title ="@string/vehicles"
+        />
+
+    <item
+        android:id = "@+id/Fuel"
+        android:checkable="true"
+        android:icon="@drawable/fuelpump"
+        android:title="@string/fuel_consumption"
+        />
+
+
+    <item
+        android:id = "@+id/Dealerships"
+        android:checkable="true"
+        android:icon="@drawable/warehouse"
+        android:title="@string/dealerships"
+        />
+   </group>
+    <group>
+    <item
+        android:id = "@+id/language"
+        android:checkable="true"
+        android:icon="@drawable/language"
+        android:title="@string/language"
+        />
+    </group>
+    <item
+        android:id = "@+id/spareparts"
+        android:checkable="true"
+        android:icon="@drawable/spareparts"
+        android:title="@string/spare_parts"
+        />
+
+
+ <item
+     android:id = "@+id/Services"
+     android:checkable="true"
+     android:icon="@drawable/services"
+     android:title="@string/services"
+     />
+ <item
+     android:id = "@+id/records"
+     android:checkable="true"
+     android:icon="@drawable/pastrecords"
+     android:title="@string/maintenance"
+     />
+
+
+
+
+</menu>

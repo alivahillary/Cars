@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FuelConsumptionActivity">
+
+
+    <TextView
+        android:id="@+id/fuel_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fuel_consumption_for_trip"
+        android:textSize="20sp"
+        android:textColor="#0000FF"
+
+        />
+
+    <EditText
+        android:id="@+id/fuelvalue"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/fuel_title"
+        android:hint="@string/fuel_value"
+        android:paddingLeft="130dp"
+        android:paddingStart="130dp"
+        android:paddingEnd="130dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/litres"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/fuelvalue"
+        android:hint="@string/litres_of_fuel"
+        android:paddingLeft="130dp"
+        android:paddingStart="130dp"
+        android:paddingEnd="130dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/litres"
+        android:hint="@string/trip_distance_in_km"
+        android:paddingLeft="130dp"
+        android:paddingStart="130dp"
+        android:paddingEnd="130dp"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/btn_Calc"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/distance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/calculate"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="203dp"
+        android:textSize="20sp"
+        android:text="@string/km_litre"
+
+
+        />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+
+        />
+
+
+</RelativeLayout>
